@@ -1,0 +1,11 @@
+def narcissistic( value ):
+    
+    sg_1=str(value)
+    pw=len(sg_1)
+    result=0
+    for i in sg_1:
+        I=int(i)
+        result+=I**pw
+    return result==value
+    
+   
